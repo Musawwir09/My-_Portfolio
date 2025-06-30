@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body{
+      height: 100%;
+      width: 100%;
+      background-color: beige;
+      box-sizing: border-box;
+      font-family: "Rubik", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+
+.portfolio_box{
+      width:1100px;
+       box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+      border-radius: 10px; 
+      background-color: azure;  
+}
+
+.portfolio{
+      height: 100%;
+      width: 100%;
+}
+.header{
+      margin: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 45px;
+}
+.name h2{
+      text-align: center;
+      font-size: 2.7rem;
+      align-items: center;
+      color: #0a0a0a;
+}
+.name p{
+      font-size: 1.7rem;
+      font-weight: 400;
+      color: #232324;
+       
+}
+.section{
+      margin: 70px;
+}
+
+.about{
+      display: flex;
+      gap:30px;
+      flex-direction: column;
+}
+.about h2{
+      font-size: 2.2rem;
+}
+.right_box{
+      display: flex;
+      gap:50px;
+      flex-direction: row;
+     margin: 0 50px;
+}
+.right_box img{
+      margin-bottom: 5px;
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+      padding: 10px;
+      border: 3px solid;
+      border-color:rgb(238, 13, 189);
+      background: linear-gradient(45deg,#e95959,#3a4452);
+}
+
+.right_box p{
+      font-size: 1.5rem;
+      line-height: 33px;
+      word-spacing: 5px;
+}
+.right_box img:hover{
+      transform: scale(1.1);
+      transition: 0.6s;
+       box-shadow: 0px 3px 15px rgba(44, 110, 241, 0.5);
+
+}
+.skill_box h2{
+       font-size: 2rem;
+       margin: 20px 0px;
+       background-color: #6e7e94d8;
+       height: 40px;
+       padding-left: 6px;
+       border-radius: 3px;
+        
+}
+.button_grid{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(2,1fr);
+      gap:5px;
+}
+
+.button_grid button{
+      padding: 20px 0px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      background-color: #b1bac7c0;
+      transition: 0.3s;
+      
+}
+
+
+.button_grid button:hover{
+      background-color:#232324b7;
+      color:antiquewhite;
+      cursor: pointer;
+}
+.project_box h2{
+        font-size: 2rem;
+       background-color: #6e7e94d8;
+       height: 40px;
+       padding-left: 6px;
+       border-radius: 3px;
+}
+
+.project_box{
+     margin: 45px 0px;
+     display: grid;
+     gap: 15px;
+}
+.project_box h3{
+      font-size: 1.5rem;
+      color: #111111ef;
+}
+.project_box p{
+      margin: 0 15px;
+      font-size: 1.2rem;
+}
+
+.footer_box p{
+      width: 100%;
+      height: 60px;
+      text-align: center;
+      background-color: #0a0a0a4f;
+      padding: 10px;
+      font-size: 1.3rem;
+      color: #1b1a1a;
+}
+.resume_box h2{
+      font-size: 2rem;
+      background-color: #6e7e94d8;
+      height: 40px;
+      padding-left: 6px;
+      border-radius: 3px;
+}
+.resume_box{
+      margin: 20px 0px;
+     display: grid;
+     gap: 15px;
+}
+.resume_box p{
+       margin: 0 15px;
+      font-size: 1.2rem;
+}
+
+.contact_box{
+       display: grid;
+     gap: 15px;
+}
+.contact_box h2{
+      font-size: 2rem;
+      background-color: #6e7e94d8;
+      height: 40px;
+      padding-left: 6px;
+      border-radius: 3px;
+}
+
+.contact_box span i{
+      font-size: 2.5rem;
+      color: #f00f0f;
+      margin-right: 10px;
+}
+.contact_box a{
+      text-decoration: none;
+      color: #0a0a0a;
+      font-size: 1.4rem;
+      font-weight: 500;
+      transition: 0.3s;
+}
+.contact_box a:hover{
+      color: #f00f0f;
+      cursor: pointer;
+}
+.contact_box p i
+{
+      font-size: 3rem;
+      color: #0ff02d;
+      margin-right: 10px;
+}
+.contact_box p{
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #0a0a0a;
+      transition: 0.3s;
+}
+.contact_box p:hover{
+      color: #380ff0;
+      cursor: pointer;
+}
+.linkedin{
+       display: grid;
+     gap: 15px;
+}
+.linkedin a i{
+      font-size: 3rem;
+      color: #1304df;
+      margin-right: 10px;
+      transition: 0.3s;
+}
+.linkedin a:hover{
+      color:#1304df;
+}
