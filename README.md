@@ -1,4 +1,4 @@
-# My-_Portfolio
+# CodSoft_My_Portfolio
 <br>
 This is a simple and responsive Personal Portfolio Website built using HTML and CSS. It showcases my skills, projects, and background as part of my web development journey. This project was developed as a part of my internship at CodSoft.
 
